@@ -1,0 +1,116 @@
+.order-sum {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.main-container {
+  padding: 20px 0px;
+}
+
+.card-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: top;
+  gap: 5px;
+}
+
+.buttons svg {
+  width: 20px;
+  height: 20px;
+}
+
+.order-texts h3 {
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.order-texts p {
+  font-size: 14px;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sub-container {
+  margin-top: 20px;
+}
+
+.h3Orders {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.h3Orders span {
+  font-weight: 500;
+}
+
+.summary {
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  box-shadow: 3px 3px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+.summary h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sum-sum {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.total {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.order-btn {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 15px;
+  margin-top: 10px;
+  border: none;
+  color: var(--m-3-sys-light-on-primary, #fff);
+  background: var(--m-3-sys-light-primary, #6750a4);
+}
+
+@media (min-width: 768px) {
+  .sub-container {
+    display: flex;
+    gap: 40px;
+  }
+
+  .summary {
+    flex-basis: 40%;
+    height: fit-content;
+  }
+}
+
+@media (min-width: 1024px) {
+  .summary {
+    flex-basis: 20%;
+  }
+}

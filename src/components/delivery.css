@@ -1,0 +1,42 @@
+.delivery-section {
+  max-width: 700px;
+  width: 100%;
+}
+
+.delivery-section h1,
+.delivery-section img {
+  margin-bottom: 10px;
+}
+
+.delivery-section input,
+.delivery-section select {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #a6a6a6;
+  padding: 0px 0px 10px 0px;
+  outline: none;
+  appearance: none;
+}
+
+.address,
+.phone,
+.payment {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.payment {
+  margin-top: 20px;
+}
+
+.time {
+  display: block;
+  width: 140px;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #6750a4;
+  background: #cac4d0;
+}
